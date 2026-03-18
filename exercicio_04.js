@@ -18,4 +18,4 @@ function ordenarDecrescente() {
     alert("Números em ordem decrescente: " + numeros.join(", "));
 }
 
-ordenarDecrescente();
+//ordenarDecrescente();

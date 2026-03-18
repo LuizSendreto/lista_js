@@ -9,10 +9,17 @@ O programa deverá:
 
 
 
-function verificarParImpar(numero) {
+
+function verificarParImpar() {
+    let numero = parseInt(prompt("Digite um nmero: " + numero));
     if (numero % 2 === 0) {
-        return "Par";
+        numero = numero +1;
     } else {
-        return "Ímpar";
+        numero = numero +1;
     }
+
+    console.log("Valor final é: " + numero);
+
 }
+
+//verificarParImpar();
