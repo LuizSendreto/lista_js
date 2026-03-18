@@ -1,0 +1,52 @@
+/* Uma picoléteria precisa de um sistema simples para mostrar o preço de seus
+produtos.
+Crie um algoritmo que permita selecionar o sabor do picolé e mostre seu preço
+correspondente.
+Sabores disponíveis
+Código Sabor Preço
+a Chocolate R$ 1,50
+b Morango R$ 2,50
+c Creme R$ 2,50
+d Manga R$ 3,20
+e Melancia R$ 3,40
+f Vanilla Ice R$ 3,00
+g Céu Azul R$ 3,60
+h Brownie R$ 4,00
+i Hawaiano R$ 5,00
+O programa deve solicitar o código do sabor e mostrar o preço
+correspondente.
+*/
+
+function escolherPicole () {
+    let codigo = prompt("Digite o codigo do picole(de a até i)");
+
+    if(codigo == "a"){
+        console.log("Chocolate -- R$ 1,50")
+    } else if (codigo == "b") {
+        console.log ("Morango -- R$ 2,50")
+    } else if (codigo == "c"){
+        console.log ("Creme -- R$ 2,50")
+    } else if (codigo == "d"){
+       console.log ("Manga -- 3,20") 
+    } else if (codigo == "e"){
+        console.log("Melancia -- 3,40 ")
+    } else if (codigo == "f"){
+        console.log ("Vanilla")
+    } else if (codigo == "g"){
+        console.log ("Céu azul")
+    } else if (codigo == "h"){
+        console.log ("Brownie")
+    } else if (codigo =="i"){
+        console.log ("Hawaino")
+    }
+
+    escolherPicole();
+        
+
+    
+
+        
+    
+
+
+}
