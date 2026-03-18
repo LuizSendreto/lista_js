@@ -37,4 +37,4 @@ function calcularBalanco() {
         alert("A empresa ficou no ZERO");
     }
 }
-calcularBalanco();
+//calcularBalanco();
