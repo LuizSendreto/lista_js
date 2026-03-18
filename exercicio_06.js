@@ -5,14 +5,14 @@ O programa deverá verificar se a letra digitada é:
 E mostrar o resultado no console.*/
 
 function verificarLetra() {
-    let letra = (prompt("Digite uma letra:"));
+    let letra = (prompt("Digite uma letra:" + letra));
 
     if (
-        letra == "a" 
-        letra == "e" 
-        letra == "i" 
-        letra == "o"
-        letra == "u"
+        letra == "a" ||
+        letra == "e" ||
+        letra == "i" ||
+        letra == "o" ||      
+        letra == "u"    
     ) {
         console.log("Vogal");
     } else {
@@ -20,5 +20,4 @@ function verificarLetra() {
     }
 }
 
-// chama a função
-verificarLetra();
+//verificarLetra();
