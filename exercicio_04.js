@@ -15,7 +15,7 @@ function ordenarDecrescente() {
         return b - a;
     });
 
-    alert("Números em ordem decrescente: " + numeros.join(", "));
+    alert("Números em ordem decrescente: " + numeros);
 }
 
 //ordenarDecrescente();
