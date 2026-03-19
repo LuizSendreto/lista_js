@@ -7,7 +7,7 @@ function ordenarDecrescente() {
     let numeros = [];
 
     for (let i = 1; i <= 4; i++) {
-        let valor = parseInt(prompt("Digite o " + i + "º valor inteiro:"));
+        let valor = parseInt(prompt("Digite o " + i + "valor inteiro:"));
         numeros.push(valor);
     }
 

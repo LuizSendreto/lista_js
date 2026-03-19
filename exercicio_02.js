@@ -9,7 +9,7 @@ function foguete_nasa() {
         console.log(i);
 
     }
-    console.log("Foguete saido");
+    console.log("Lançamento realizado");
 };
 
 

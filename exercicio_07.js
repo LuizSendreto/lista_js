@@ -40,7 +40,7 @@ function escolherPicole () {
         console.log ("Hawaino")
     }
 
-    escolherPicole();
+    //escolherPicole();
         
 
     
