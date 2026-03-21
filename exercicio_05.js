@@ -12,7 +12,7 @@ O programa deverá:
 
 function verificarParImpar() {
     let numero = parseInt(prompt("Digite um nmero: " + numero));
-    if (numero % 2 === 0) {
+    if (numero % 2 == 0) {
         numero = numero + 1;
     } else {
         numero = numero + 1;
