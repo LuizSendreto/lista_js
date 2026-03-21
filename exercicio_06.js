@@ -5,7 +5,7 @@ O programa deverá verificar se a letra digitada é:
 E mostrar o resultado no console.*/
 
 function verificarLetra() {
-    let letra = prompt("Digite uma letra:" + letra);
+    let letra = prompt("Digite uma letra:" );
 
     if (
         letra == "a" ||

@@ -11,6 +11,8 @@ O programa deverá:
 
 
 function verificarParImpar() {
+    let impar =0;
+    let par = 0;
     let numero = parseInt(prompt("Digite um nmero: " + numero));
     if (numero % 2 == 0) {
         numero = numero + 1;
@@ -22,4 +24,4 @@ function verificarParImpar() {
 
 }
 
-//verificarParImpar();
+//verificarParImpar();,0

@@ -3,14 +3,14 @@ Crie um algoritmo que faça uma contagem regressiva para o lançamento, iniciand
 Ao final da contagem, exiba a mensagem:
 "Lançamento realizado!"*/
 
-function foguete_nasa() {
+function contagem_Regressiva() {
 
     for (let i = 10; i > 0; i--) {
         console.log(i);
 
     }
-    console.log("Foguete saido");
+    console.log("Lançamento realizado");
 };
 
 
-//foguete_nasa();
+//contagem_Regressiva();
